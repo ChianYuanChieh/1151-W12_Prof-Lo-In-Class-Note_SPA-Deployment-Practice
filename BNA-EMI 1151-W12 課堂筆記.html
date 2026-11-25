@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BNA-EMI 1151-W12 課堂筆記</title>
+<style>
+:root{
+  --bg:#f7f9fc; --card:#ffffff; --ink:#1f2a37; --sub:#5b6776; --line:#e2e8f0;
+  --blue:#d9ecff; --blue-i:#2a6fb0;
+  --pink:#ffe0ec; --pink-i:#b03a6a;
+  --green:#e2f6c8; --green-i:#4a7a1c;
+  --orange:#ffe8c9; --orange-i:#a8620c;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#14181f; --card:#1c222b; --ink:#e8edf3; --sub:#9aa6b4; --line:#2b3441;
+    --blue:#1d3a55; --blue-i:#8cc4f5;
+    --pink:#4a2437; --pink-i:#f5a3c4;
+    --green:#2c3f17; --green-i:#b4e17a;
+    --orange:#4a3416; --orange-i:#f5c27a;
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.7 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif}
+main{max-width:560px;margin:0 auto;padding:20px 16px 48px}
+header{padding:8px 0 18px}
+h1{font-size:26px;line-height:1.3;margin:0 0 4px}
+.meta{color:var(--sub);font-size:14px;margin:0}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:14px 0}
+h2{font-size:18px;margin:0 0 10px;line-height:1.4}
+h3{font-size:15px;margin:14px 0 6px;color:var(--sub);font-weight:600}
+p{margin:6px 0}
+.tag{display:inline-block;padding:1px 9px;border-radius:6px;font-size:14px;margin:2px 2px 2px 0}
+.b{background:var(--blue);color:var(--blue-i)}
+.p{background:var(--pink);color:var(--pink-i)}
+.g{background:var(--green);color:var(--green-i)}
+.o{background:var(--orange);color:var(--orange-i)}
+.steps{list-style:none;margin:8px 0 0;padding:0}
+.steps li{display:flex;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
+.steps li:first-child{border-top:0}
+.n{flex:none;width:28px;height:28px;border-radius:50%;background:var(--blue);color:var(--blue-i);
+  display:grid;place-items:center;font-weight:700;font-size:14px}
+.steps b{display:block}
+.steps span{color:var(--sub);font-size:14px}
+.flow{display:flex;flex-direction:column;gap:6px;margin:8px 0}
+.flow div{padding:8px 12px;border-radius:10px;background:var(--bg);border:1px solid var(--line)}
+.flow .ar{background:none;border:0;padding:0;text-align:center;color:var(--sub);line-height:1}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.box{border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:15px}
+.box small{display:block;color:var(--sub)}
+.yes{border-color:var(--green-i)}
+.no{border-color:var(--pink-i)}
+ul{margin:6px 0;padding-left:20px}
+li{margin:2px 0}
+code{background:var(--bg);border:1px solid var(--line);border-radius:5px;padding:0 5px;font-size:14px}
+.note{color:var(--sub);font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>BNA-EMI 課堂筆記</h1>
+  <p class="meta">1151-W12（11/25）</p>
+</header>
+
+<section>
+  <h2><span class="tag b">analysis</span> 分析（n.）</h2>
+  <p>analytical thinking：把問題拆開、深入查證，再重新組合，得到新的看法。</p>
+  <ol class="steps">
+    <li><div class="n">1</div><div><b>Separate 拆解</b><span>Σ parts／Σ components：the problem、the demand、the questions</span></div></li>
+    <li><div class="n">2</div><div><b>Investigate deeply 深入調查</b><span>with evidences（e.g. 市場）</span></div></li>
+    <li><div class="n">3</div><div><b>Recombine 重新組合</b><span>找出 potential relationships</span></div></li>
+    <li><div class="n">4</div><div><b>A new representation → insights</b><span>用新的呈現方式得到洞見</span></div></li>
+  </ol>
+</section>
+
+<section>
+  <h2>呈現方式與目標</h2>
+  <p><b>Coggle mind map</b> 的特性：</p>
+  <p><span class="tag p">systematic</span><span class="tag p">structured</span><span class="tag p">process-oriented</span></p>
+  <p>→ goal／purpose reached</p>
+  <div class="two" style="margin-top:10px">
+    <div class="box yes"><b>✓ effective</b><small>達成目標</small></div>
+    <div class="box no"><b>✗ efficient</b><small>output ↑ ／ input ↓</small></div>
+  </div>
+  <p class="note">本課重點是 effective，而不是 efficient。</p>
+</section>
+
+<section>
+  <h2>Market 市場</h2>
+  <div class="flow">
+    <div>producers（供給）⇄ consumers（需求）</div>
+    <div class="ar">↓</div>
+    <div>Product → Value（WTP）→ TA</div>
+  </div>
+  <p>$ 在市場中流動。<b>WTP</b> 是願意付的價格，<b>TA</b> 是目標客群。</p>
+  <h3>MVP</h3>
+  <p><b>M</b>inimum <b>V</b>iable <b>P</b>roduct：最小可行產品，能 commercialized（to be transacted）。</p>
+</section>
+
+<section>
+  <h2><span class="tag g">PRD</span> 與 TP</h2>
+  <div class="flow">
+    <div>Supply／demand → <b>Product</b></div>
+    <div>Requirements → functions、verifications</div>
+    <div>Document</div>
+    <div class="ar">↓</div>
+    <div><b>TP = Product + MVP</b></div>
+  </div>
+  <h3>BNA Agent</h3>
+  <div class="flow">
+    <div class="g"><b>Product</b>：Software／APP／application</div>
+    <div class="ar">↓</div>
+    <div>Webpage／website，也就是 <span class="tag o">SaaS</span>（Software as a Service）</div>
+  </div>
+  <ul>
+    <li><span class="tag o">Front-end</span> 前端：使用者看到的畫面</li>
+    <li><span class="tag o">Back-end</span> 後端：背後的服務</li>
+    <li>圖片：<code>png／jpeg</code> + <code>.svg</code>（Scalable Vector Graph）</li>
+  </ul>
+</section>
+
+<section>
+  <h2><span class="tag g">AI</span> 的三種角色</h2>
+  <ul>
+    <li><b>chatbot</b>：discussion 對話討論</li>
+    <li><b>task agent</b>：consultancy 顧問式協助</li>
+    <li><b>coding agent</b>：analysis、summary</li>
+  </ul>
+</section>
+
+<section>
+  <h2>從課堂筆記到成品</h2>
+  <h3>contents（輸入）</h3>
+  <p><span class="tag g">In-class note</span></p>
+  <ul>
+    <li>hand-written（-taking）手寫筆記</li>
+    <li>voice recording、video</li>
+    <li>image／picture</li>
+  </ul>
+  <p>→ <b>Summary</b>（analysis）</p>
+  <h3>輸出一：文件</h3>
+  <p><code>.md</code> file（markdown format）→ document</p>
+  <p><code>KB.md</code>、<code>hand off.md</code>、<code>PRD.md</code></p>
+  <h3>輸出二：圖與網頁</h3>
+  <ul>
+    <li><span class="tag g">svg</span> diagram</li>
+    <li><span class="tag g">spa</span> single page app（<code>.html</code>）</li>
+    <li>deploy 部署 → deployment URL（http web link）</li>
+  </ul>
+  <p class="note">另外提到 creativity 與 critical thinking。</p>
+</section>
+
+<section>
+  <h2>版面風格 style</h2>
+  <p><span class="tag p">simple</span><span class="tag p">clear</span><span class="tag p">light colored</span></p>
+  <div class="two" style="margin-top:10px">
+    <div class="box yes"><b>✓ in portrait</b><small>mobile phone devices</small></div>
+    <div class="box no"><b>✗ landscape</b><small>notebook PC／TV display</small></div>
+  </div>
+  <p class="note">圖中還畫了 team #1 members、team member #2 與 session，用來說明團隊成員之間的分享。</p>
+</section>
+</main>
+</body>
+</html>
